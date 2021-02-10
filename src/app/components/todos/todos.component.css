@@ -1,0 +1,75 @@
+@font-face {
+  font-family: "Quicksand-Regular";
+  src: local("Quicksand-Regular"), url(../../../assets/fonts/Quicksand-Regular.ttf);
+}
+
+.todo {
+  display: flex;
+	padding: 10px 35px;
+	background-color: #FFF;
+  border-bottom: 1px solid #DDD;
+  font-family: "Quicksand-Regular";
+  font-size: 20px;
+}
+
+.todo:nth-child(even) {
+	background-color: #EEE;
+}
+
+.todo:last-of-type {
+	border-bottom: 0;
+}
+
+.todo .id {
+	flex: 80px;
+}
+
+.todo .content {
+	flex: 100%;
+}
+
+.todo.done .content {
+  text-decoration: line-through;
+}
+
+.todo-input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	border: none;
+	background-color: #F3F3F3;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+}
+.todo-input::placeholder {
+  font-family: "Quicksand-Regular";
+}
+
+.todo-submit {
+  font-family: "Quicksand-Regular";
+	display: block;
+	width: 100%;
+	max-width: 200px;
+  border: none;
+  border-radius: 8px;
+	outline: none;
+	background: none;
+	background-color:green;
+	color: #FFF;
+	margin: 15px auto;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.delete {
+  font-family: "Quicksand-Regular";
+  font-size: 20px;
+  color: #fff;
+  background-color: #DE1738;
+  padding: 4px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+}

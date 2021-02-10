@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Quicksand-Bold";
+  src: local("Quicksand-Bold"), url(../assets/fonts/Quicksand-Bold.ttf);
+}
+
+.Todo-title{
+  font-family: "Quicksand-Bold";
+  font-size: 40px;
+}
